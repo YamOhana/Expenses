@@ -1,0 +1,19 @@
+#input{
+
+    border-radius: 30px;
+    width: 600px;
+}
+
+#container{
+
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 10px;
+    grid-template-areas: 
+    "h h h h "
+    "s s m m m m"
+    "s s m m m m"
+    "s s m m m m"
+    "s s f f f f";
+}
